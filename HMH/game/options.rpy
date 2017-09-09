@@ -36,7 +36,7 @@ define gui.about = _("")
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "poopy"
+define build.name = "HMH"
 
 
 ## Sounds and music ############################################################
@@ -136,7 +136,7 @@ default preferences.afm_time = 15
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
-define config.save_directory = "poopy-1504903516"
+define config.save_directory = "HMH-1504981237"
 
 
 ## Icon ########################################################################

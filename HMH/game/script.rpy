@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define f = Character("fug m8")
+define v = Character("vorepone")
 
 
 # The game starts here.
@@ -24,11 +24,38 @@ label start:
 
     # These display lines of dialogue.
 
-    "Hello, world."
+    "9am at Horse Mouth High"
 
-    f "bruv"
+    v "Hey there!"
 
-    f "do you lift?"
+    v "There's nothing really here, so there's nothing to see yet"
+    
+    v "unless you want to see the inside of my mouth"
+    
+    menu:
+        "No thanks I'm good":
+            jump badend
+        
+        "Sure why not?":
+            jump goodend
+        
+label badend:
+    
+    v "*sigh* alright get out of here ya twerp"
+    
+    "..."
+    
+    return
+
+label goodend:
+    
+    v "Great!  just stand still and I'll give you the view of your life!"
+    
+    v "Aaaaaaah~"
+    
+    v "gulp!"
+    
+    "YOU HAVE DIED"
 
     # This ends the game.
 

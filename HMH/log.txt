@@ -1,32 +1,32 @@
-Sat Sep 09 11:07:25 2017
+Sat Sep 09 11:28:42 2017
 Windows-XP-5.1.2600-SP3
 Ren'Py 6.99.12.4.2187
  
 
 Bootstrap to the start of init.init took 0.10s
-Early init took 0.02s
-Loader init took 0.02s
-Loading error handling took 0.05s
-Loading script took 0.13s
-Loading persistent took 0.01s
+Early init took 0.03s
+Loader init took 0.01s
+Loading error handling took 0.04s
+Loading script took 0.18s
+Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.18s
-Loading analysis data took 0.01s
+Running init code took 0.16s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Backing up script files to 'C:\\users\\nate\\Application Data/RenPy/backups\\poopy':
-Dump and make backups. took 0.06s
+Backing up script files to 'C:\\users\\nate\\Application Data/RenPy/backups\\HMH':
+Dump and make backups. took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 DPI scale factor: 1.000000
-Creating interface object took 0.03s
+Creating interface object took 0.05s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.05s
 Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.03s
 Save screen analysis took 0.06s
-Prepare screens took 0.06s
+Prepare screens took 0.05s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.04s
 Running _start took 0.00s
@@ -35,7 +35,7 @@ Interface start took 0.01s
 
 primary display bounds: (0, 0, 1920, 1080)
 Windowed mode.
-Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
+Screen sizes: virtual=(1066, 600) physical=(1066, 600) drawable=(1066, 600)
 Vendor: 'Intel Open Source Technology Center'
 Renderer: 'Mesa DRI Intel(R) Ivybridge Mobile x86/MMX/SSE2'
 Version: '3.0 Mesa 12.0.6'
@@ -279,11 +279,25 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 2.04499983788s
+Total time until interface ready: 2.15700006485s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.009000 seconds.
-- Frame drawn at 0.012000 seconds.
-- Frame drawn at 0.041000 seconds.
-- Frame drawn at 0.043000 seconds.
-- 0.043000 seconds to render 5 frames.
+- Frame drawn at 0.007000 seconds.
+- Frame drawn at 0.010000 seconds.
+- Frame drawn at 0.018000 seconds.
+- Frame drawn at 0.034000 seconds.
+- 0.034000 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.18s
+Build styles took 0.02s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.21s
+Build styles took 0.02s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
